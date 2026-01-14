@@ -1,14 +1,19 @@
-# Slot Machine 
+# Pi-Top Slot Machine 
 Physical Slot Machine built on Raspberry Pi / Pi-Top
 
-# Features
+## Introduction
+I took on this project because there has been an epidemic of online gambling and betting that has only become more prevalent in recent years. I wanted to make something to show people not to gamble, because the odds are in the house's favor and you will always lose out in the long term. By building a physical slot machine using a pi-top I could allow people to gamble without actually losing real money.
+
+## Part Selection
+
+## Features
 *Ultrasonic sensor to detect prescense
 *Button for user input
 *Adjustable bet with potentiometer
 *Win Logic: Loss, Small Win (2 matching symbols), Big Win (3 Matching Symvols), Jackpot (Triple 7s)
 *Sounds for each result
 
-# State Machine
+## State Machine
 | State        | Description                                      |
 |--------------|--------------------------------------------------|
 | `IDLE`       | Waiting for someone to approach                  |
